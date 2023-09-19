@@ -11,3 +11,44 @@
     width: 300px;    
     height: 300px;
 }
+
+.lien {
+    text-decoration: underline;
+    color:#007bff;
+}
+
+.vert {
+    font-weight: bold; 
+    color: white; 
+    background-color: #00643c; 
+    border-radius: 10px; 
+    padding: 0px 6px;
+    font-size: 14;
+  }
+
+  .bleu {
+    font-weight: bold; 
+    color: white; 
+    background-color: #0055c8; 
+    border-radius: 10px; 
+    padding: 0px 6px;
+    font-size: 14;
+  }
+
+.violet {
+    font-weight: bold; 
+    color: white; 
+    background-color: #640082; 
+    border-radius: 10px; 
+    padding: 0px 6px;
+    font-size: 14;
+  }
+
+  .rose {
+    font-weight: bold; 
+    color: white; 
+    background-color:   #d282be; 
+    border-radius: 10px; 
+    padding: 0px 6px;
+    font-size: 14;
+  }

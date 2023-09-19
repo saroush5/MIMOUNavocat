@@ -11,7 +11,7 @@ function Menu() {
             <li><a href='#'><Home size={24} /> Accueil</a></li>
             <li><a href='#'><Euro size={24} /> Tarifs</a></li>
             <li><Link to='/acces'><Map size={24} /> Accès</Link></li>
-            <li><a href='#'><Info size={24} /> À Propos</a></li>
+            <li><a href='#'><Info size={24} /> À propos</a></li>
           </ul>
         </nav>
       </div>
