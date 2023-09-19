@@ -5,7 +5,7 @@
     function Acces() {
     return (
         <div className='acces'>
-        Le cabinet de Maître Dalia MIMOUN est idéalement situé au 73, rue Pierre et Marie Curie, à Bagnolet, 93170. <br></br>
+        Le cabinet de Maître Dalia MIMOUN est idéalement situé au 73 rue Pierre et Marie Curie, à 93170 Bagnolet. <br></br>
         Les moyens de transport en commun à proximité comprennent les lignes de bus suivantes : <br></br>
 
         <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='vert'>115</span> - Arrêt : Les Malassis ou Stalingrad <br></br>

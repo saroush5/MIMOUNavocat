@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
-import Address from './Address';
 import Footer from './Footer';
 import Menu from './Menu';
 import Acces from './Acces'; 
+import Propos from './Propos'; 
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
         <Menu />
         <Routes>
           <Route path="/acces" element={<Acces />} />
+          <Route path="/propos" element={<Propos />} />
           {/* Autres routes */}
         </Routes>
-          {/* <p>Avocat Generaliste, dans le divorce, droit de la famille,, droit penal et expulsion.</p>
-          <Address className="address" /> */}
+          {/* <p>Avocat Generaliste, dans le divorce, droit de la famille,, droit penal et expulsion.</p> */}
         <Footer /> 
       </div>
     </Router> 

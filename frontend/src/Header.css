@@ -1,14 +1,3 @@
-/* Dans votre fichier Header.css */
-/* .header {
-  display: flex;
-  background-color: #007bff;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} */
-
 .header {
   position: fixed;
   top: 0;
@@ -21,37 +10,14 @@
   opacity: 50%;
 }
 
-.menu {
-  margin-top: 20px; /* Espacement entre le titre et le menu */
-}
-
-.menu ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.menu ul li {
-  margin-bottom: 10px;
-}
-
-.menu ul li a {
-  display: flex;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-
-.menu ul li a:hover {
-  text-decoration: underline;
-}
-
-.menu ul li a svg {
-  margin-right: 10px; /* Espacement entre l'icône et le texte */
-}
-
 .title {
   color: white;
-  font-size: 24px;
   margin: 0;
   font-size: 40px;
+}
+
+.spe {
+  color: white;
+  margin: 0;
+  font-size: 20px;
 }
