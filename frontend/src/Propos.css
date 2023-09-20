@@ -1,4 +1,50 @@
 .propos {
-    margin-left: 300px;
-    margin-right: 300px;
-}
+    color: black;
+    text-align: justify;
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+  
+  .t_propos {
+    color: #007bff;
+    position: relative;
+    max-width: 650px;
+  } 
+  
+  .t_propos:after{
+    content:" ";
+    height: 2px;
+    width: 550px;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+  .p_propos {
+    color: black;   
+    text-align: center;
+  }
+
+  .t_parcours {
+    color: #007bff;
+    position: relative;
+    max-width: 650px;
+  } 
+  
+  .t_parcours:after{
+    content:" ";
+    height: 2px;
+    width: 515px;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+  .p_parcours {
+    color: black;   
+    text-align: center;
+  }

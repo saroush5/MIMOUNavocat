@@ -6,6 +6,8 @@ import Footer from './Footer';
 import Menu from './Menu';
 import Acces from './Acces'; 
 import Propos from './Propos'; 
+import Contact from './Contact'; 
+import Prestations from './Prestations';
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
         <Routes>
           <Route path="/acces" element={<Acces />} />
           <Route path="/propos" element={<Propos />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/prestations" element={<Prestations />} />
           {/* Autres routes */}
         </Routes>
-          {/* <p>Avocat Generaliste, dans le divorce, droit de la famille,, droit penal et expulsion.</p> */}
         <Footer /> 
       </div>
     </Router> 

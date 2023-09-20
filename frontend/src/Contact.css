@@ -1,0 +1,112 @@
+.contact {
+    color: black;
+    text-align: justify;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+.p_contact {
+    color: black;   
+    text-align: center;
+}
+
+.c_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coordonnes {
+    color: #007bff;
+    position: relative;
+    max-width: 640px;
+} 
+
+.coordonnes:after{
+    content:" ";
+    height: 2px;
+    width: 510px;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.send_mail {
+    color: #007bff;
+    position: relative;
+    max-width: 670px;
+} 
+
+.send_mail:after{
+    content:" ";
+    height: 1px;
+    width: 450px;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #e7f2ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #006fe6;
+  }
+  
+  textarea {
+    resize: vertical
+  }
+
+  .message {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #e7f2ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .icon {
+    color: #007bff;
+  }

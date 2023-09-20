@@ -5,8 +5,10 @@
     function Acces() {
     return (
         <div className='acces'>
+          <h3 className='t_acces'>Accès</h3>
+          < p className='p_acces'>
         Le cabinet de Maître Dalia MIMOUN est idéalement situé au 73 rue Pierre et Marie Curie, à 93170 Bagnolet. <br></br>
-        Les moyens de transport en commun à proximité comprennent les lignes de bus suivantes : <br></br>
+        Les moyens de transport en commun à proximité comprennent les lignes de bus suivantes: <br></br>
 
         <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='vert'>115</span> - Arrêt : Les Malassis ou Stalingrad <br></br>
         <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='bleu'>318</span> - Arrêt : René Alazard - Sadi Carno  <br></br>
@@ -16,6 +18,7 @@
         {/* <p className="notes">A ajouter: lien waze, lien google maps</p> */}
         <MapPin size={20} /> <a href="https://www.google.com/maps?ll=48.87184,2.424218&z=16&t=m&hl=en&gl=FR&mapclient=embed&q=73+Rue+Pierre+et+Marie+Curie+93170+Bagnolet" target="_blank" rel="noopener noreferrer" className='lien'>Lien Google Maps</a> &nbsp;
         <Car size={20} /> <a href=" https://waze.com/ul?ll=48.8719194,2.4244284&navigate=yes" target="_blank" rel="noopener noreferrer" className='lien'>Lien Waze</a>
+        </p>
         <br></br><br></br>
         <iframe className='plan'
         title="Plan Google Maps"

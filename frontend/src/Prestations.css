@@ -1,0 +1,28 @@
+.prestations {
+    color: black;
+    text-align: justify;
+    margin-left: 29%;
+    margin-right: 29%;
+  }
+  
+  .t_prestations {
+    color: #007bff;
+    position: relative;
+    max-width: 650px;
+  } 
+  
+  .t_prestations:after{
+    content:" ";
+    height: 2px;
+    width: 540px;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
+  .p_prestations {
+    color: black;   
+    text-align: center;
+  }
