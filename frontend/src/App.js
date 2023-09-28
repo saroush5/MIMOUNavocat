@@ -34,8 +34,8 @@ function App() {
           </Routes>
           <div className="container">
             <img src="../bob.png" alt="Image" className="bobi" />
-          </div>
-          <Footer />  */}
+          </div>*/}
+          <Footer />  
           {/* <div className="switch">
             <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
             <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
