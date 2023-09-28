@@ -20,3 +20,27 @@
   margin: 0;
   font-size: 20px;
 }
+
+.spe2 {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+}
+
+@media (max-width: 650px) { 
+  .title {
+    font-size: 100%;
+  }
+
+  .spe {
+    font-size: 100%;
+  }
+
+  .spe2 {
+    font-size: 83%;
+  }
+
+  .header {
+    padding: 10px;
+    }
+}

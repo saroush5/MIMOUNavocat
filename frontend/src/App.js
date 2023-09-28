@@ -23,7 +23,7 @@ function App() {
     <Router>
       <div className="App" id={theme}>
       {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> */}
-        {/* <Header /> */}
+        <Header />
           <Menu/>
           {/* <Routes>
             <Route path="/" element={<Accueil />} />

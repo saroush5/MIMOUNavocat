@@ -6,8 +6,8 @@
   background-color: #007bff; 
   display: flex; 
   flex-direction: column; 
-  align-items: center; 
-  margin-top: 160px; 
+  align-items: center;
+  margin-top: 12%; 
 }
 
 .menu .nav { 
@@ -88,6 +88,7 @@ font-size: 20px;
   .menu {
     flex-direction: row;
     background-color: white;
+  margin-top: 30%; 
   }
 
   .menu .nav { 
