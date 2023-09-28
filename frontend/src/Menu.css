@@ -1,45 +1,107 @@
-.menu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 220px; 
-    background-color: #007bff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 160px;
+.menu { 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  width: 220px; 
+  background-color: #007bff; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 160px; 
+}
+
+.menu .nav { 
+  position: absolute; 
+  right: -10px; 
+  width: 200px;
+  background-color: #007bff;
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); 
+  padding: 10px;
+}
+
+.menu ul { 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.menu ul li { 
+  margin-bottom: 10px; 
+  font-size: 30px; 
+}
+
+.menu ul li a { 
+  display: flex; 
+  align-items: center; 
+  color: white; 
+  text-decoration: none; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.menu ul li a:hover { 
+  background-color: white;
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.menu ul li a svg { 
+  margin-right: 10px; 
+}
+
+.menu .hamburger { 
+  display: none;
+  /* position: absolute;  */
+  /* right: 0px;  */
+  /* top: 20px;  */
+  cursor: pointer;
+}
+
+.menu .dropdown {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  background-color: #007bff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 999; /* Pour s'assurer que la dropdown est au-dessus du reste du contenu */
+}
+
+
+.menu .dropdown ul {
+font-size: 20px; 
+}
+
+.menu .dropdown ul li a { 
+  color: white; 
+  padding: 5px;
+}
+
+.menu .dropdown ul li a:hover { 
+  background-color: white;
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+@media (max-width: 650px) { 
+  .menu {
+    flex-direction: row;
+    background-color: white;
   }
-  
-  .menu .nav {
-    width: 100%;
-    margin-left: 50px;
+
+  .menu .nav { 
+    display: none; 
   }
-  
-  .menu ul {
-    list-style-type: none;
-    padding: 0;
+
+.menu .hamburger {
+  display: block; 
+  background-color:#007bff;
+  margin-left: 10px;
+}
+
+  .menu .dropdown {
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .menu ul li {
-    margin-bottom: 10px;
-    font-size: 30px;
-  }
-  
-  .menu ul li a {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .menu ul li a:hover {
-    background-color: white;    
-    color: #007bff; 
-    text-decoration: none;
-  }
-  
-  .menu ul li a svg {
-    margin-right: 10px;
-  }
-  
+}

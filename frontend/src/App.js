@@ -23,9 +23,9 @@ function App() {
     <Router>
       <div className="App" id={theme}>
       {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> */}
-        <Header />
-          <Menu />
-          <Routes>
+        {/* <Header /> */}
+          <Menu/>
+          {/* <Routes>
             <Route path="/" element={<Accueil />} />
             <Route path="/acces" element={<Acces />} />
             <Route path="/propos" element={<Propos />} />
@@ -35,7 +35,7 @@ function App() {
           <div className="container">
             <img src="../bob.png" alt="Image" className="bobi" />
           </div>
-          <Footer /> 
+          <Footer />  */}
           {/* <div className="switch">
             <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
             <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
