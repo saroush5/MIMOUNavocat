@@ -1,4 +1,4 @@
-import { Scale, Home, DollarSign, Info } from 'lucide-react';
+import { Scale } from 'lucide-react';
 import './Header.css';
 
 function Header() {

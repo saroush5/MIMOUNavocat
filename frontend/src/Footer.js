@@ -1,7 +1,7 @@
 import './Footer.css';
 
 function Footer() {
-    const currentYear = new Date().getFullYear(); // Obtient l'année courante
+    const currentYear = new Date().getFullYear();
   
     return (
       <footer>

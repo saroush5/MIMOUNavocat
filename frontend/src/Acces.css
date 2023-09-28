@@ -34,6 +34,7 @@
 .plan {
     width: 650px;    
     height: 400px;
+    margin-bottom: 150px;
 }
 
 .lien {
@@ -75,4 +76,8 @@
     border-radius: 10px; 
     padding: 0px 6px;
     font-size: 14;
+  }
+
+  #icon {
+    color:#007bff;
   }

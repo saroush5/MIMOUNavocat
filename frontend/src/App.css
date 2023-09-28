@@ -1,13 +1,22 @@
 .App {
   color: black;
   text-align: center;
-}
-
-.notes {
-  color: black;
-  text-align: center;
-}
+} 
 
 body {
-  margin-top: 160px;
+  padding-top: 160px;
+}
+
+.container {
+  position: relative;
+}
+
+.bobi {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  margin-right: 20px;
+  width: 250px;
+  height: auto;
 }

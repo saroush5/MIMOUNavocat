@@ -110,3 +110,15 @@ form {
   .icon {
     color: #007bff;
   }
+
+  .msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin-bottom: 200px;
+  }
+
+  .tel {
+    text-decoration: none; 
+    color: inherit; 
+  }
