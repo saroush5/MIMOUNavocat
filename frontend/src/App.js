@@ -25,14 +25,14 @@ function App() {
       {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> */}
         <Header />
           <Menu/>
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<Accueil />} />
             <Route path="/acces" element={<Acces />} />
             <Route path="/propos" element={<Propos />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/prestations" element={<Prestations />} />
           </Routes>
-          <div className="container">
+          {/* <div className="container">
             <img src="../bob.png" alt="Image" className="bobi" />
           </div>*/}
           <Footer />  
