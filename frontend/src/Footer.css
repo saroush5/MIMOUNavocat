@@ -1,4 +1,4 @@
-footer {
+.foot {
     position: fixed;
     /* margin-top: 50px; */
     bottom: 0;
@@ -26,9 +26,15 @@ footer {
   }
 
   @media (max-width: 650px) { 
-    footer {
-      margin-top: 50px;
+    .foot {
+      margin-top: 10px;
       padding: 10px;
+      position:absolute;
+      bottom:0;
+      width: 100%;
+      z-index: 999;
+      pointer-events: none;
+      position: relative;
     }
 
     .footer {

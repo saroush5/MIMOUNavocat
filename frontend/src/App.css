@@ -3,9 +3,9 @@
   text-align: center;
 } 
 
-body {
-  /* padding-top: 160px; */
-}
+/* body {
+  margin-bottom: 30%;
+} */
 
 .container {
   position: relative;
@@ -19,4 +19,10 @@ body {
   margin-right: 20px;
   width: 250px;
   height: auto;
+}
+
+@media (max-width: 650px) { 
+  /* body {
+    margin-bottom: 111px;
+  } */
 }

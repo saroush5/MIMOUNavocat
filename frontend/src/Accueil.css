@@ -3,27 +3,89 @@
     text-align: center;
     margin-left: 32%;
     margin-right: 29%;
-    margin-top: 160px;
+    margin-top: 20%;
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid #007bff; 
-    color: #007bff; 
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #007bff; 
-    color: white; 
-  }
-
-  @media (max-width: 650px) { 
+  button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #007bff;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #007bff;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #007bff;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: white;
+   }
+   
+   @media (max-width: 650px) {
     .accueil {
-        margin-top: 80px;
+        margin-top: 0;
         margin-left: 15%;
         margin-right: 15%;
     }
-  }
+
+    button {
+        padding: 0.8em 1.8em;
+        border: 2px solid #007bff;
+        position: relative;
+        overflow: hidden;
+        background-color: transparent;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        transition: .3s;
+        z-index: 1;
+        font-family: inherit;
+        color: #007bff;
+        margin-bottom: 100px; /* Ajoutez un espace en dessous du bouton */
+    }
+
+    button::before {
+        content: '';
+        width: 0;
+        height: 500%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #007bff;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+    }
+
+    button:hover::before {
+        width: 105%;
+    }
+
+    button:hover {
+        color: white;
+    }
+}
+
