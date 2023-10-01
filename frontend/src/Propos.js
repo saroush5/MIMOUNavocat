@@ -23,12 +23,12 @@ return (
     <h3 className='t_parcours'>Son parcours</h3>
     <p className='p_parcours'>
     Maître Dalia MIMOUN est une avocate chevronnée au Barreau de Bobigny, dont le parcours remarquable reflète son engagement indéfectible envers la justice et le droit. <br></br>
-    Dès ses débuts dans le monde du droit après avoir obtenu son bac B en 1993, <br></br>elle a rapidement gravit les échelons académiques. <br></br>
-    Après avoir obtenu sa licence de droit en 1996, elle a poursuivi ses études pour obtenir une maîtrise en carrière judiciaire en 1997, démontrant sa détermination à acquérir <br></br>une solide compréhension du système juridique. <br></br>
+    Dès ses débuts dans le monde du droit après avoir obtenu son bac B en 1993, elle a rapidement gravit les échelons académiques. <br></br>
+    Après avoir obtenu sa licence de droit en 1996, elle a poursuivi ses études pour obtenir une maîtrise en carrière judiciaire en 1997, démontrant sa détermination à acquérir une solide compréhension du système juridique. <br></br>
     Parallèlement, elle a élargi son champ de compétences avec une maîtrise en droit des affaires en 1998, puis un DEA (Diplôme d'Études Approfondies) en droit des affaires en 1999.<br></br>
     Après avoir intégré l'EFB (École de Formation professionnelle des Barreaux du ressort de la Cour d'appel de Paris) en 2000, son engagement envers le métier d'avocat s'est concrétisé lors de sa prestation de serment le 3 juillet 2002, marquant le début d'une carrière prolifique. <br></br>
     Elle cumule donc à ce jour {experience} années d’expérience. <br></br>
-    Elle a ensuite enrichi son expérience professionnelle en tant que collaboratrice au sein du cabinet Monin Berthault de 2002 à 2005, où elle a acquis une expertise précieuse <br></br>dans divers domaines du droit. <br></br>
+    Elle a ensuite enrichi son expérience professionnelle en tant que collaboratrice au sein du cabinet Monin Berthault de 2002 à 2005, où elle a acquis une expertise précieuse dans divers domaines du droit. <br></br>
     Depuis 2005, elle exerce seule à son compte.
     Aujourd'hui, Maître Dalia MIOUN est reconnue pour son excellence, sa perspicacité juridique et son dévouement sans faille envers les intérêts de ses clients. <br></br>
     Son parcours impressionnant est le reflet de son engagement continu à offrir une représentation juridique de premier plan et à lutter pour la justice.

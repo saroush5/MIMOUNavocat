@@ -3,18 +3,19 @@
     text-align: justify;
     margin-left: 26%;
     margin-right: 26%;
+    margin-top: 12%;
   }
   
   .t_propos {
     color: #007bff;
     position: relative;
-    max-width: 650px;
+    max-width: 100%;
   } 
   
   .t_propos:after{
     content:" ";
     height: 2px;
-    width: 550px;
+    width: 87%;
     background: #007bff;
     display: block;
     position: absolute;
@@ -24,19 +25,19 @@
   
   .p_propos {
     color: black;   
-    text-align: center;
+    text-align: justify;
   }
 
   .t_parcours {
     color: #007bff;
     position: relative;
-    max-width: 650px;
+    max-width: 100%;
   } 
   
   .t_parcours:after{
     content:" ";
     height: 2px;
-    width: 515px;
+    width: 81%;
     background: #007bff;
     display: block;
     position: absolute;
@@ -46,6 +47,36 @@
   
   .p_parcours {
     color: black;   
-    text-align: center;
+    text-align: justify;
     margin-bottom: 150px;
+  }
+
+  @media (max-width: 650px) {
+    .propos {
+      margin-top: -15%;
+      margin-left: 17%;
+      margin-right: 15%;
+    }
+
+    .t_propos:after{
+      content:" ";
+      height: 2px;
+      width: 63%;
+      background: #007bff;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+    }
+
+    .t_parcours:after{
+      content:" ";
+      height: 2px;
+      width: 46.5%;
+      background: #007bff;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+    }
   }
