@@ -32,9 +32,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/prestations" element={<Prestations />} />
           </Routes>
-          {/* <div className="container">
+          <div className="container">
             <img src="../bob.png" alt="Image" className="bobi" />
-          </div>*/}
+          </div>
           <Footer />  
           {/* <div className="switch">
             <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>

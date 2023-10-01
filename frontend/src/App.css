@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 650px) { 
-  /* body {
-    margin-bottom: 111px;
-  } */
+  .bobi {
+    display:none;
+  }
 }
