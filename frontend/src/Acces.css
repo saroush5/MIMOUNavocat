@@ -3,6 +3,7 @@
   text-align: justify;
   margin-left: 29%;
   margin-right: 29%;
+  margin-top: 12%;
 }
 
 .t_acces {
@@ -14,7 +15,7 @@
 .t_acces:after{
   content:" ";
   height: 2px;
-  width: 580px;
+  width: 90%;
   background: #007bff;
   display: block;
   position: absolute;
@@ -32,14 +33,19 @@
 }
 
 .plan {
-    width: 650px;    
-    height: 400px;
+    width: 100%;    
     margin-bottom: 150px;
 }
 
 .lien {
-    text-decoration: underline;
-    color:#007bff;
+  color: #007bff; 
+  font-weight: bold; 
+  font-size: 16px; 
+  transition: color 0.3s ease; 
+}
+
+.lien:hover {
+  color: #006fe6;
 }
 
 .vert {
@@ -80,4 +86,37 @@
 
   #icon {
     color:#007bff;
+  }
+
+  @media (max-width: 650px) {
+    .p_acces {
+      display:none;
+    }
+
+    .acces {
+      margin-top: -15%;
+      margin-left: 17%;
+      margin-right: 15%;
+    }
+
+    .acces .t_acces {
+      color: #007bff;
+      position: relative;
+      max-width: 650px;
+    } 
+
+    .t_acces:after{
+      content:" ";
+      height: 2px;
+      width: 76%;
+      background: #007bff;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+    }
+
+    .links {
+      text-align: center;
+    }
   }

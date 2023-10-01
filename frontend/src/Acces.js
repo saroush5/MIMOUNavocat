@@ -17,9 +17,21 @@
         <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='violet'>76</span> - Arrêt : Les Malassis ou Pierre Curie ou Stalingrad<br></br>
         <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='rose'>122</span> - Arrêt : Pierre Curie  <br></br>
         Ces options de transport offrent un accès pratique au cabinet de Maître MIMOUN, facilitant ainsi les déplacements pour les clients. <br></br>
-        {/* <p className="notes">A ajouter: lien waze, lien google maps</p> */}
         <MapPin size={20} id="icon"/> <a href="https://www.google.com/maps?ll=48.87184,2.424218&z=16&t=m&hl=en&gl=FR&mapclient=embed&q=73+Rue+Pierre+et+Marie+Curie+93170+Bagnolet" target="_blank" rel="noopener noreferrer" className='lien'>Lien Google Maps</a> &nbsp;
         <Car size={20} id="icon"/> <a href=" https://waze.com/ul?ll=48.8719194,2.4244284&navigate=yes" target="_blank" rel="noopener noreferrer" className='lien'>Lien Waze</a>
+        </p>
+        < p className='p_acces_mob'>
+        Le cabinet de Maître Dalia MIMOUN est idéalement situé au: <br></br>
+        <span className="bi bi-pin-map" id="icon"> </span>73 rue Pierre et Marie Curie, <br></br>à 93170 Bagnolet. <br></br>
+        Les moyens de transport en commun à proximité comprennent les lignes de bus suivantes: <br></br>
+
+        <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='vert'>115</span> - Arrêt : Les Malassis ou Stalingrad <br></br>
+        <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='bleu'>318</span> - Arrêt : René Alazard - Sadi Carno  <br></br>
+        <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='violet'>76</span> - Arrêt : Les Malassis ou Pierre Curie ou Stalingrad<br></br>
+        <Bus size={14} /><i> </i><i className='bus'>Bus</i> <span className='rose'>122</span> - Arrêt : Pierre Curie  <br></br><br></br>
+        Ces options de transport offrent un accès pratique au cabinet de Maître MIMOUN, facilitant ainsi les déplacements pour les clients. <br></br>
+        <div className='links'><MapPin size={20} id="icon"/> <a href="https://www.google.com/maps?ll=48.87184,2.424218&z=16&t=m&hl=en&gl=FR&mapclient=embed&q=73+Rue+Pierre+et+Marie+Curie+93170+Bagnolet" target="_blank" rel="noopener noreferrer" className='lien'>Lien Google Maps</a> <br></br>
+        <Car size={20} id="icon"/> <a href=" https://waze.com/ul?ll=48.8719194,2.4244284&navigate=yes" target="_blank" rel="noopener noreferrer" className='lien'>Lien Waze</a></div>
         </p>
         <br></br>
         <iframe className='plan'
