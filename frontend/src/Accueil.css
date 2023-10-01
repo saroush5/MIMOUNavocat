@@ -6,7 +6,7 @@
     margin-top: 20%;
 }
 
-  button {
+  .btn {
     padding: 0.8em 1.8em;
     border: 2px solid #007bff;
     position: relative;
@@ -21,7 +21,7 @@
     color: #007bff;
    }
    
-   button::before {
+   .btn::before {
     content: '';
     width: 0;
     height: 500%;
@@ -35,22 +35,22 @@
     z-index: -1;
    }
    
-   button:hover::before {
+   .btn:hover::before {
     width: 105%;
    }
    
-   button:hover {
+   .btn:hover {
     color: white;
    }
    
    @media (max-width: 650px) {
     .accueil {
-        margin-top: 0;
+        margin-top: -15%;
         margin-left: 15%;
         margin-right: 15%;
     }
 
-    button {
+    .btn {
         padding: 0.8em 1.8em;
         border: 2px solid #007bff;
         position: relative;
@@ -63,10 +63,10 @@
         z-index: 1;
         font-family: inherit;
         color: #007bff;
-        margin-bottom: 100px; /* Ajoutez un espace en dessous du bouton */
+        margin-bottom: 100px; 
     }
 
-    button::before {
+    .btn::before {
         content: '';
         width: 0;
         height: 500%;
@@ -80,11 +80,11 @@
         z-index: -1;
     }
 
-    button:hover::before {
+    .btn:hover::before {
         width: 105%;
     }
 
-    button:hover {
+    .btn:hover {
         color: white;
     }
 }

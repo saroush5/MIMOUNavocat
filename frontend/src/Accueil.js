@@ -12,7 +12,7 @@ function Accueil() {
     <div className='accueil'>
         <br></br>
         <span>Maître Dalia MIMOUN exerce en tant qu'avocate au barreau de Bobigny, où elle a établi sa propre structure afin de consacrer son engagement quotidien au service de ses clients. Son cabinet est idéalement situé au cœur de Bagnolet.</span><br></br><br></br>
-        <button onClick={handleLearnMoreClick}> Planifier un rendez-vous </button>
+        <button className='btn' onClick={handleLearnMoreClick}> Planifier un rendez-vous </button>
     </div>
   );
 }
