@@ -7,7 +7,8 @@ import Footer from './Footer';
 import Menu from './Menu';
 import Acces from './Acces'; 
 import Propos from './Propos'; 
-import Contact from './Contact'; 
+// import Contact from './Contact'; 
+import Contact from './New_Contact'; 
 import Prestations from './Prestations';
 import Accueil from './Accueil';
 
@@ -23,7 +24,7 @@ function App() {
     <Router>
       <div className="App" id={theme}>
       {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> */}
-        <Header />
+        {/* <Header /> */}
           <Menu/>
           <Routes>
             <Route path="/" element={<Accueil />} />

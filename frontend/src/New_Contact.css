@@ -1,0 +1,356 @@
+.contact {
+    color: black;
+    text-align: justify;
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-top: 12%;
+}
+
+.p_contact {
+    color: black;   
+    text-align: justify;
+}
+
+.p_contact_mob {
+  display: none;
+}
+
+.infos {
+  text-align: center;
+}
+
+.c_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.c_form_mob {
+  display: none;
+}
+
+.coordonnes {
+    color: #007bff;
+    position: relative;
+    max-width: 100%;
+} 
+
+.coordonnes:after{
+    content:" ";
+    height: 2px;
+    width: 78%;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.send_mail {
+  color: #007bff;
+  position: relative;
+  max-width: 100%;
+} 
+
+.send_mail:after{
+  content:" ";
+  height: 2px;
+  width: 66%;
+  background: #007bff;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.form {
+    max-width: 273px;
+    padding: 10px;
+    padding-right: 5%;
+    background-color: #e7f2ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: yellow;
+    caret-color: #007bff;
+    background-color: #e7f2ff;
+  }
+  
+  .error_message {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .form_error {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: -5%;
+    margin-left: 5px;
+    text-align: start;
+    margin-bottom: 50px;
+  }
+
+  .btn_send {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #007bff, #ffffff);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin-left: 35%;
+  }
+   
+   .btn_send:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+  
+  textarea {
+    resize: vertical;
+  }
+
+  textarea::-webkit-resizer {
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent #007bff #007bff transparent;
+  }
+
+  .message {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #e7f2ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .icon {
+    color: #007bff;
+  }
+
+  .msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin-bottom: 200px;
+  }
+
+  .tel {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .inputBox {
+    position: relative;
+    width: 250px;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #007bff;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #007bff;
+    border-bottom: 2px solid #007bff;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .inputBox span {
+    margin-top: -22%;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #007bff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+  }
+  
+  .inputBox .fInputMail:valid~span,
+  .inputBox .fInputMail:focus~span {
+    transform: translateX(179%) translateY(-50%);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #007bff;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+  }
+
+  .inputBox .fInputTel:valid~span,
+  .inputBox .fInputTel:focus~span {
+    transform: translateX(88%) translateY(-50%);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #007bff;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+  }
+
+  .inputBox .fInputName:valid~span,
+  .inputBox .fInputName:focus~span {
+    transform: translateX(63%) translateY(-50%);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #007bff;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+  }
+
+  .fInputName {
+    margin-top: 10px;
+  }
+  
+  .inputBox input:valid,
+  .inputBox input:focus {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+  }
+
+  .inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #007bff;
+    border-bottom: 2px solid #007bff;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+  }
+
+  .inputBox textarea:valid~span,
+.inputBox textarea:focus~span {
+  transform: translateX(0%) translateY(-1%);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #007bff;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox textarea:valid,
+.inputBox textarea:focus {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+}
+
+  @media (max-width: 650px) {
+    .p_contact {
+      display: none;
+    }
+
+    .contact {
+      margin-top: -15%;
+      margin-left: 17%;
+      margin-right: 12%;
+    }
+
+    .coordonnes:after{
+      content:" ";
+      height: 2px;
+      width: 46%;
+      background: #007bff;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+  }
+
+  .send_mail:after{
+    content:" ";
+    height: 2px;
+    width: 17%;
+    background: #007bff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .p_contact_mob {
+    display: block;
+  }
+
+  .c_form {
+        /* display: none; */
+  }
+
+  .c_form_mob {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+
+  .form_mob {
+    max-width: 273px;
+    padding: 10px;
+    padding-right: 7%;
+    background-color: #e7f2ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;  
+  }
+
+  .inputBox {
+    position: relative;
+    width: 250px;
+    margin-right: 20px;
+  }
+  }
