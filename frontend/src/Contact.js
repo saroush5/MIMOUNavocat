@@ -146,7 +146,7 @@
 
 // export default Contact;
 
-import './New_Contact.css';
+import './Contact.css';
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Phone, Printer, AtSign, MailQuestion, User, Files  } from 'lucide-react';
@@ -220,6 +220,15 @@ export const Contact = () => {
         <div className='infos'><Phone size={15} className='icon' /> Téléphone: <a href='tel:+33119881505' className='tel'>01.49.88.15.05</a> <Printer size={15} className='icon'/> Fax: 01.79.75.38.18<br></br>
         <AtSign size={15} className='icon' /> Email: <a href='mailto:avocat@mimoun.org' className='tel'>avocat@mimoun.org</a> <Files size={15} className='icon' /> Toque: 29 </div>
       </p>
+      <p className='p_contact_mob'>
+         N’hésitez pas à contacter directement Maître Dalia MIMOUN et elle répondra à toutes vos questions. 
+         Dans tous les cas, les frais de consultation vous seront déduits en cas de procédure subséquente.<br></br>
+         Le cabinet est ouvert du lundi au vendredi de 8h00 à 18h00, sur rendez-vous uniquement.<br></br>
+         <div className='infos'><Phone size={15} className='icon' /> Téléphone: <a href='tel:+33119881505' className='tel'>01.49.88.15.05</a> <br></br>
+         <Printer size={15} className='icon'/> Fax: 01.79.75.38.18<br></br>
+         <AtSign size={15} className='icon' /> Email: <a href='mailto:avocat@mimoun.org' className='tel'>avocat@mimoun.org</a> <br></br>
+         <Files size={15} className='icon' /> Toque: 29 </div>
+       </p>
       <h3 className='send_mail'>Envoyer un message</h3>
       <div className='c_form'>
       <form ref={form} onSubmit={sendEmail} className="form">
