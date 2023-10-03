@@ -7,7 +7,6 @@ import Footer from './Footer';
 import Menu from './Menu';
 import Acces from './Acces'; 
 import Propos from './Propos'; 
-// import MobileContact from './MobileContact'; 
 import Contact from './Contact'; 
 import Prestations from './Prestations';
 import Accueil from './Accueil';
@@ -15,15 +14,9 @@ import Accueil from './Accueil';
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("light");
-
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
-  };
   return (
     <Router>
-      <div className="App" id={theme}>
-      {/* <ThemeContext.Provider value={{ theme, toggleTheme }}> */}
+      <div className="App">
         <Header />
           <Menu/>
           <Routes>
@@ -36,12 +29,7 @@ function App() {
           <div className="container">
             <img src="../bob.png" alt="Image" className="bobi" />
           </div>
-          <Footer />  
-          {/* <div className="switch">
-            <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-          </div>
-          </ThemeContext.Provider> */}
+          <Footer />
           </div>
     </Router> 
   );
