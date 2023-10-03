@@ -26,10 +26,6 @@
     width: 100%;
 }
 
-.c_form_mob {
-  display: none;
-}
-
 .coordonnes {
     color: #007bff;
     position: relative;
@@ -325,17 +321,6 @@
 
   .p_contact_mob {
     display: block;
-  }
-
-  .c_form {
-        /* display: none; */
-  }
-
-  .c_form_mob {
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
   }
 
   .form_mob {

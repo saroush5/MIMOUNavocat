@@ -97,6 +97,11 @@
       display:none;
     }
 
+    .p_acces_mob {
+      display:block;
+      text-align: center;
+    }
+
     .acces {
       margin-top: -15%;
       margin-left: 17%;
